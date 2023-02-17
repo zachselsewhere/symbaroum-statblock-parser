@@ -1,0 +1,23 @@
+{
+  "name": "symbaroum-statblock-parser",
+  "title": "Symbaroum Statblock Parser",
+  "description": "A module that allows users to parse Symbaroum Stat blocks and create new actors in Foundry VTT game world",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.9",
+  "author": "ZachsElsewhere",
+  "url": "https://github.com/zachselsewhere/symbaroum-statblock-parser",
+  "scripts": [
+    "module.js"
+  ],
+  "styles": [
+    "styles.css"
+  ],
+  "dependencies": [
+    "https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/file-saver.js/2.0.5/FileSaver.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"
+  ],
+  "license": "MIT",
+  "manifest": true
+}
