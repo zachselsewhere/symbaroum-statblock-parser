@@ -60,7 +60,7 @@
   "contributors": [],
   "manifestV": 2,
   "minimumCoreVersion": "0.7.9",
-  "download": "https://github.com/zachselsewhere/symbaroum-statblock-parser/releases/latest/download/module.zip",
+  "download": "https://github.com/zachselsewhere/symbaroum-statblock-parser/archive/refs/heads/main.zip",
   "icon": "icons/icon.svg",
   "iconPNG": "icons/icon.png",
   "flags": [],
