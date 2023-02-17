@@ -1,23 +1,82 @@
 {
-  "name": "symbaroum-statblock-parser",
+  "name": "Symbaroum Statblock Parser",
   "title": "Symbaroum Statblock Parser",
-  "description": "A module that allows users to parse Symbaroum Stat blocks and create new actors in Foundry VTT game world",
+  "description": "A module that allows users to parse Symbaroum Stat blocks and create new actors in their game world.",
   "version": "0.1.0",
-  "minimumCoreVersion": "0.8.9",
   "author": "ZachsElsewhere",
-  "url": "https://github.com/zachselsewhere/symbaroum-statblock-parser",
+  "manifest": "module.json",
+  "id": "symbaroum-statblock-parser",
+  "main": "module.js",
   "scripts": [
-    "module.js"
-  ],
-  "styles": [
-    "styles.css"
+    "app.js"
   ],
   "dependencies": [
-    "https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/file-saver.js/2.0.5/FileSaver.min.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"
+    {
+      "name": "react",
+      "type": "module",
+      "module": "https://unpkg.com/react@17.0.2/umd/react.production.min.js",
+      "path": "node_modules/react/"
+    },
+    {
+      "name": "react-dom",
+      "type": "module",
+      "module": "https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js",
+      "path": "node_modules/react-dom/"
+    },
+    {
+      "name": "axios",
+      "type": "module",
+      "module": "https://unpkg.com/axios/dist/axios.min.js",
+      "path": "node_modules/axios/"
+    },
+    {
+      "name": "file-saver",
+      "type": "module",
+      "module": "https://unpkg.com/file-saver/dist/FileSaver.min.js",
+      "path": "node_modules/file-saver/"
+    }
   ],
-  "license": "MIT",
-  "manifest": true
+  "permissions": [
+    "FILES",
+    "SETTINGS",
+    "MODULES",
+    "WORLD",
+    "ENTITY_COLLECTION",
+    "ENTITY_CREATE",
+    "ENTITY_UPDATE"
+  ],
+  "categories": [
+    "Actor",
+    "Utility"
+  ],
+  "config": {},
+  "scripts": [],
+  "styles": [],
+  "entryPoints": [
+    "app.js"
+  ],
+  "extends": null,
+  "authorId": null,
+  "contributors": [],
+  "manifestV": 2,
+  "minimumCoreVersion": "0.7.9",
+  "download": "https://github.com/zachselsewhere/symbaroum-statblock-parser/releases/latest/download/module.zip",
+  "icon": "icons/icon.svg",
+  "iconPNG": "icons/icon.png",
+  "flags": [],
+  "keywords": [],
+  "languages": [],
+  "manifestFormats": [
+    "1.0",
+    "2.0"
+  ],
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachselsewhere/symbaroum-statblock-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zachselsewhere/symbaroum-statblock-parser/issues"
+  },
+  "homepage": "https://github.com/zachselsewhere/symbaroum-statblock-parser"
 }
