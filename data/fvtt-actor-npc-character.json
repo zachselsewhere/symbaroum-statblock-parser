@@ -1,0 +1,189 @@
+{
+  "name": "Monster Character",
+  "type": "monster",
+  "img": "systems/symbaroum/asset/image/unknown-actor.png",
+  "system": {
+    "attributes": {
+      "accurate": {
+        "label": "ATTRIBUTE.ACCURATE",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "cunning": {
+        "label": "ATTRIBUTE.CUNNING",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "discreet": {
+        "label": "ATTRIBUTE.DISCREET",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "persuasive": {
+        "label": "ATTRIBUTE.PERSUASIVE",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "quick": {
+        "label": "ATTRIBUTE.QUICK",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "resolute": {
+        "label": "ATTRIBUTE.RESOLUTE",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "strong": {
+        "label": "ATTRIBUTE.STRONG",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      },
+      "vigilant": {
+        "label": "ATTRIBUTE.VIGILANT",
+        "total": 10,
+        "value": 10,
+        "temporaryMod": 0
+      }
+    },
+    "health": {
+      "toughness": {
+        "max": 0,
+        "value": 0,
+        "threshold": 0
+      },
+      "corruption": {
+        "max": 0,
+        "permanent": 0,
+        "temporary": 0,
+        "threshold": 0,
+        "value": 0,
+        "longterm": 0
+      }
+    },
+    "money": {
+      "thaler": 0,
+      "shilling": 0,
+      "orteg": 0
+    },
+    "defense": {
+      "attribute": "quick"
+    },
+    "initiative": {
+      "attribute": "quick",
+      "value": 10
+    },
+    "experience": {
+      "current": 0,
+      "total": 0,
+      "spent": 0,
+      "available": 0,
+      "artifactrr": 0
+    },
+    "bio": {
+      "race": "",
+      "occupation": "",
+      "resistance": "",
+      "shadow": "",
+      "quote": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "appearance": "",
+      "background": "",
+      "personalGoal": "",
+      "tactics": "",
+      "manner": ""
+    },
+    "notes": "<p>Test Note</p>"
+  },
+  "prototypeToken": {
+    "name": "Monster Character",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/symbaroum/asset/image/unknown-actor.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health.toughness"
+    },
+    "bar2": {
+      "attribute": "health.corruption"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "stat-parser",
+      "system": "symbaroum",
+      "coreVersion": "10.291",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "_stats": {
+    "systemId": "symbaroum",
+    "systemVersion": "4.0.3",
+    "coreVersion": "10.291",
+    "createdTime": 1676643158013,
+    "modifiedTime": 1676643158013,
+    "lastModifiedBy": "T7Umw0JiRKZqcwjv"
+  }
+}
